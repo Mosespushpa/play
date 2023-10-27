@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>Music</title>
+    
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Songs</h1>
+        </div>
+        <div class="container">
+            <div class="card s-1">
+                <img src="./chinna_manushankulla.jpeg" alt="You_are_My_All_in_All" onclick="playVideo('video-1')">
+            </div>
+            <div class="card s-2">
+                <img src="./God_will.webp" alt="You_are_My_All_in_All" onclick="playVideo('video-2')">
+            </div>
+            <div class="card s-3">
+                <img src="./you_are.jpg" alt="You_are_My_All_in_All" onclick="playVideo('video-3')">
+            </div>
+            <div class="card s-4">
+                <img src="./jesus_loves_me.jpeg" alt="You_are_My_All_in_All" onclick="playVideo('video-4')">
+            </div>
+            <div class="card s-5">
+                <img src="./it'll_happen.jpeg" alt="You_are_My_All_in_All" onclick="playVideo('video-5')">
+            </div>
+            <video id="video-1" poster="./chinna_manushankulla.jpeg">
+                <source src="./[Lyric Video] Chinna Manushanukkulla - Gersson Edinbaro - Hephzibah Renjith_320kbps.mp3" type="audio/mp4">
+            </video>
+            <video id="video-2" poster="./God_will.webp">
+                <source src="./God_Will_Make_A_Way_-_Don_Moen_Religious_Song(128k).m4a" type="audio/mp4">
+            </video>
+            <video id="video-3" poster="./you_are.jpg">
+                <source src="You_are_My_All_in_All(128k).m4a" type="audio/mp4">
+            </video>
+            <video id="video-4" poster="./jesus_loves_me.jpeg">
+                <source src="./JESUS_LOVE_ME_🙌_WITH_EVERLASTING_LOVE_🙌_FULL_LYRICS___NEW_CHRISTIAN_ENGLISH_SONG_.(128k).m4a" type="audio/mp4">
+            </video>
+            <video id="video-5" poster="./it'll_happen.jpeg">
+                <source src="./Stella_Ramola_-_It'll_Happen_(Official_Music_Video)(256k).mp3" type="audio/mp4">
+            </video>
+            <!-- Add more cards and video elements for other songs as needed -->
+        </div>
+    </div>
+
+    
+</body>
+</html>

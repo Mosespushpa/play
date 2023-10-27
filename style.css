@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(to bottom right, red 0%, blue 100%);
+
+}
+.card {
+    height: 250px;
+    width: 310px;
+    margin: 5px;
+    background-color: aqua;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    object-fit: fill;
+    width: 310px;
+    height: 250px;
+    cursor: pointer; /* Add pointer cursor to indicate clickability */
+}
+
+video {
+    object-fit: cover;
+    width: 310px;
+    height: 250px;
+    display: none; /* Hide the video element initially */
+}
